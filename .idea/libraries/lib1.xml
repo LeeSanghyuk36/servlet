@@ -1,0 +1,40 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/catalina-ssi.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/tomcat-i18n-ko.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/tomcat-i18n-pt-BR.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/jasper.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/tomcat-dbcp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/servlet-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/tomcat-jni.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/catalina-ant.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/catalina-storeconfig.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/el-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/tomcat-i18n-cs.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/catalina.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/tomcat-i18n-es.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/tomcat-util.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/tomcat-i18n-ja.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/tomcat-websocket.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/tomcat-i18n-zh-CN.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/tomcat-i18n-fr.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/jasper-el.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/jsp-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/tomcat-i18n-de.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/jaspic-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/tomcat-i18n-ru.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/ecj-4.20.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/tomcat-jdbc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/catalina-tribes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/websocket-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/tomcat-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/tomcat-coyote.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/catalina-ha.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/annotations-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/apache-tomcat-9.0.89/lib/tomcat-util-scan.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
