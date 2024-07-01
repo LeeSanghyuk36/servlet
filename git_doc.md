@@ -128,3 +128,7 @@ $ git reset --hard @^ (@^, @~1, @~ 가 동일)
 
 //git remote 취소하기 (원격저장소 연결 해제)
 $ git remote rm origin
+
+// fatal: unable to access 'https://github.com/LeeSanghyuk36/servlet.git/': SSL certificate problem: self-signed certificate in certificate chain
+// エラーが発生の時の対応。
+$ git config --global http.sslVerify false
