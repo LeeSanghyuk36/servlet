@@ -91,8 +91,9 @@ $ git branch -v(-a)
 $ git status
 
 //지금까지의 모든 커밋에 대한 내용 조회(커밋아이디, 사용자이름, 날짜, 브랜치)
-$ git log //git log의 그래프 옵션(그래프로 나타냄)
+$ git log 
 
+//git log의 그래프 옵션(그래프로 나타냄)
 $ git log --graph
 
 
