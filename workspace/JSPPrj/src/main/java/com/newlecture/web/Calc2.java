@@ -18,6 +18,7 @@ public class Calc2 extends HttpServlet{
 							throws ServletException
 							, IOException 
 		{
+		ServletContext application = req.getServletContext();
 		res.setCharacterEncoding("UTF-8");
 		res.setContentType("text/html; charset=UTF-8");
 		PrintWriter out = res.getWriter();
@@ -30,24 +31,27 @@ public class Calc2 extends HttpServlet{
 		}
 		
 		// calc
-//		if (op.equals("=")) {
-//			int result = 0;
-//			if (op.equals("plus")) {
-//				result = x+y;			
-//			}else if (op.equals("minus")) {
-//				result = x-y;			
-//			}
-//			
-//			//save value
-//		}else {
-//			ServletContext application = req.getServletContext();
-//			application.setAttribute("value", v);
-//			application.setAttribute("op", op);
-//		
-//			
-//		}
-//		
-//		out.printf("result is %d\n", result);
+		if (op.equals("=")) {
+			
+			int x = (Integer)application.getAttribute("value");
+			int y = v;
+			String operator = (String)application.getAttribute("op");;
+			
+			int result = 0;
+			
+			if (operator.equals("+")) {
+				result = x+y;
+			} else if (operator.equals("-")) {
+				result = x-y;
+			}
+			res.getWriter().printf("result is %d\n", result);
+		
+		// save
+		}else {
+		application.setAttribute("value", v);
+		application.setAttribute("op", op);
+		}
+		
 	}
 
 }
